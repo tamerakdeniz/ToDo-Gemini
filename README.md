@@ -7,14 +7,14 @@ A modern task management application powered by Google's Gemini AI, built with F
 - ✨ AI-powered task suggestions and organization
 - 🔐 Secure user authentication
 - 📱 Responsive web interface
-- 🗄️ PostgreSQL database integration
+- 🗄️ Database integration
 - 🐳 Docker support for easy deployment
 - 🔄 Database migrations with Alembic
 
 ## 🛠️ Tech Stack
 
 - **Backend**: FastAPI
-- **Database**: PostgreSQL
+- **Database**: SQLite
 - **AI Integration**: Google Gemini AI
 - **Frontend**: HTML, CSS, JavaScript
 - **ORM**: SQLAlchemy
@@ -80,7 +80,7 @@ docker-compose up --build
    - Natural language task processing
 
 4. **Database**
-   - PostgreSQL database for reliable data storage
+   - Database for reliable data storage
    - Alembic migrations for database version control
 
 ## 🔧 Development
@@ -107,13 +107,6 @@ alembic revision --autogenerate -m "description"
 alembic upgrade head
 ```
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
