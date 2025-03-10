@@ -107,7 +107,3 @@ alembic revision --autogenerate -m "description"
 alembic upgrade head
 ```
 
-
----
-
-Made with ❤️ by [Your Name]
